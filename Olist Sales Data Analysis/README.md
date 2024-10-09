@@ -2,15 +2,17 @@
 # Olist Sales Data Analysis
 by Terrence Tolentino
 
-![ERD](images/ERD.png)
-
+![Olist](images/olist.png)
 
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Olist is a Brazilian e-commerce platform providing logistics and centralized management support for a wide range of sellers. Established in 2015, Olist operates in the e-commerce industry, specializing in streamlining the selling process for its partner merchants by consolidating their products into a unified marketplace. This business model allows sellers to focus on product offerings while Olist manages order fulfillment, logistics, and customer service.
+
+
+The dataset contains information on orders, products, purchases, sellers, and customers from September 2016 - September 2018. This project analyzes and synthesizes these data in order to evaluate sales trends over time and across categories and as well as to identify the best and worst selling products in the platform.
+
 
 Insights and recommendations are provided on the following key areas:
-
-- **Category 1:** 
+- **Overall Sales Trends Analysis:** Evaluation of historical sales patterns, focusing on Order Volume, Revenue, and Average Order Value (AOV). 
 - **Category 2:** 
 - **Category 3:** 
 - **Category 4:** 
