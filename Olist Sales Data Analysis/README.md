@@ -1,6 +1,8 @@
-Welcome to the sample GitHub ReadME! Use this template as an outline for your data analytics projects. Include one ReadME per repository, with each repository storing one project. Remember, it's better to have quality over quantity - having 2 stellar business-relevant projects stands out much more than 3+ mediocre projects. Feel free to make a copy of this or fork this repository and make it your own. Happy portfolio-ing :) 
 
+# Olist Sales Data Analysis
+by Terrence Tolentino
 
+![ERD](images/ERD.png)
 
 
 # Project Background
