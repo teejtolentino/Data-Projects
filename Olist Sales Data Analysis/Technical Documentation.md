@@ -134,6 +134,6 @@ FROM `olist_dataset.order_sales_avg_value`;
 
 ![olist_csv_screenshot](images/olist_order_sales_data.png)
 
-* The complete dataset can be found [here]
+* The complete dataset can be found [here](https://github.com/teejtolentino/Data-Projects/blob/1b4d7441b64590faff73a061bb2916bd643ae4a0/Olist%20Sales%20Data%20Analysis/olist_orders_sales_data.csv).
 
-* The interactive sales dashboard can be found [here](https://public.tableau.com/views/OlistSalesDashboard_17282128967370/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+* The interactive sales dashboard can be found [here](https://public.tableau.com/views/OlistSalesDashboard_17282128967370/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
