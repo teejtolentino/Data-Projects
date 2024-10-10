@@ -1,5 +1,6 @@
 # Olist Sales Analysis Technical Documentation
 
+
 ### Data Preparation
 
 * The data used in this project is the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) which is available for download in Kaggle.
@@ -13,11 +14,14 @@
 * The Olist dataset contains 11 tables. For the purposes of the project, however, I only use four
 tables namely: **orders**, **order_items**, **products**, and **product_category_name_translation**. The full ERD of the dataset is found below:
 
+
 ![ERD](images/ERD.png)
 
 
 
+
 ### Data Processing
+
 
 * **SQL Query #1: JOIN relevant tables**
 
@@ -50,6 +54,7 @@ ORDER BY a.order_purchase_timestamp ASC, a.order_item_id ASC;
 
 ```
 
+
 * **SQL Query #2: Data cleaning**
 
   - From the raw table created, create a new clean table. In the query below, we deal with
@@ -63,6 +68,7 @@ product_category,
 FROM `olist_dataset.order_sales_data_raw`;
 
 ```
+
 
 * **SQL Query #3: Data manipulation and aggregation**
 
@@ -82,6 +88,7 @@ ORDER BY order_date, product_category;
 
 ```
 
+
 * **SQL Query #4: Perform calculations and add fields to the table**
 
   - Now that we have information on quantity_sold and total_sales, we can now calculate for the Average Order Value (AOV) which is a key metric for our analysis.
@@ -96,6 +103,7 @@ GROUP BY order_date
 ORDER BY order_date;
 
 ```
+
 
 * **SQL Query #5: Finalize the table and prepare for export**
 
@@ -113,6 +121,7 @@ ON a.order_date = b.order_date
 ORDER BY a.order_date;
 
 ```
+
 
 * **SQL Query #6: Pull the final table**
 
@@ -132,7 +141,9 @@ FROM `olist_dataset.order_sales_avg_value`;
 
 * The final resulting table now contains all the relevant information we need for our analysis. We now export the table to a csv file and then import it to Tableau. A glimpse of the final dataset is found below:
 
+
 ![olist_csv_screenshot](images/olist_order_sales_data.png)
+
 
 * The complete dataset can be found [here](https://github.com/teejtolentino/Data-Projects/blob/1b4d7441b64590faff73a061bb2916bd643ae4a0/Olist%20Sales%20Data%20Analysis/olist_orders_sales_data.csv).
 
