@@ -19,7 +19,7 @@ revenue.
 
 The technical documentation for this project, including the SQL queries used to inspect
 and clean the data for analysis, the entire process of data manipulation, and the
-targeted SQL queries regarding various business questions can be found here.
+targeted SQL queries regarding various business questions can be found [here](https://github.com/teejtolentino/Data-Projects/blob/182fac06468a54f35f6db7f26e371a5fd17f90a1/Olist%20Sales%20Data%20Analysis/Technical%20Documentation.md).
 
 An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/views/OlistSalesDashboard_17282128967370/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
