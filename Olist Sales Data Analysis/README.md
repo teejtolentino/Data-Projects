@@ -112,7 +112,7 @@ sports_leisure, account for a combined **40% of total sales**, while the lowest 
 categories contribute less than **5%**. This indicates a heavy reliance on a few
 categories to drive overall revenue.
 
-![best_worst_performers][images/best_worst_selling_products.JPG]
+![best_worst_selling](images/best_worst_selling_products.JPG)
 
 
 
