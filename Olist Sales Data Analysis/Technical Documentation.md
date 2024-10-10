@@ -132,4 +132,8 @@ FROM `olist_dataset.order_sales_avg_value`;
 
 * The final resulting table now contains all the relevant information we need for our analysis. We now export the table to a csv file and then import it to Tableau. A glimpse of the final dataset is found below:
 
-  
+![olist_csv_screenshot](images/olist_order_sales_data.png)
+
+* The complete dataset can be found [here]
+
+* The interactive sales dashboard can be found [here](https://public.tableau.com/views/OlistSalesDashboard_17282128967370/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
