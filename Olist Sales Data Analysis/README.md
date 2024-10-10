@@ -21,7 +21,7 @@ The technical documentation for this project, including the SQL queries used to 
 and clean the data for analysis, the entire process of data manipulation, and the
 targeted SQL queries regarding various business questions can be found here.
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/views/OlistSalesDashboard_17282128967370/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 
 
@@ -50,7 +50,7 @@ categories and considering the reallocation of resources from underperforming ar
 Overall, the data reveals positive growth in terms of order volume and revenue.
 
 Below is an overview of the Tableau dashboard and more examples are shown
-throughout the report. The entire interactive dashboard can be accessed here.
+throughout the report. The entire interactive dashboard can be accessed [here](https://public.tableau.com/views/OlistSalesDashboard_17282128967370/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ![dashboard](images/dashboard.JPG)
 
