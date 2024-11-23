@@ -18,6 +18,7 @@
 
 ## Data Processing
 
+
 * **SQL Query #1: Create the final table to be analyzed, JOINing all relevant tables and columns.**
 
 ```
@@ -48,7 +49,9 @@ ON a.user_id = d.id;
 
 ```
 
+
 Let's try answering a few business questions using our table.
+
 
 * **SQL Query #2: Total number of sales broken down by product in descending order.**
 
@@ -77,6 +80,7 @@ LIMIT 10;
 | The North Face Freedom Mens Ski Pants 2013 | 2709.0 |
 | Mens Nike AirJordan Varsity Hoodie Jacket Grey / Black 451582-066 | 2709.0 |
 
+
 * **SQL Query #3: The store’s top 10 customers with the highest average price per order.**
 
 ```
@@ -88,6 +92,7 @@ ORDER BY AOP DESC
 LIMIT 10;
 
 ```
+
 
 *Result:*
 
@@ -104,6 +109,7 @@ LIMIT 10;
 | Jonathan| Zimmerman | 815.0 |
 | Dennis | Gibson| 815.0 |
 
+
 * **SQL Query #4: Product volume by department.**
 
 ```
@@ -113,12 +119,14 @@ FROM `bigquery-public-data.thelook_ecommerce.products`
 GROUP BY department
 
 ```
+
 *Result:*
 
 | department | product_count |
 | ------------- | ------------- |
 | Women | 15988 |
 | Men | 13130 |
+
 
 ## Conclusion:
 
